@@ -32,12 +32,7 @@ body{
     border-radius: 5px 5px 0px 0px;
 }
 
-#menu ul li .activemenu{
-    background: #585858;
-    color: #fff;
-    border-radius: 5px 5px 0px 0px;
-    padding: 10px;
-}
+
 
 .principal{
     width: 80%;
@@ -48,7 +43,10 @@ body{
 
 .encabezado-lis{
     background: #585858;
+    width: 100%;
+    height: 150px;
 }
+
 
 .contenidos{
     width: 100%;
@@ -61,8 +59,8 @@ body{
 }
 
 .caja{
-    width: 300px;
-    height: 400px;
+    width: 265px;
+    height: 365px;
     transform-style: preserve-3d;
     transition: 2s;
     transform: perspective(500px) rotate(0deg);
@@ -93,7 +91,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(imga/fotos/descarga.jpg);
+    background: url(Imga/fotos/w1.jpeg);
     background-position: center;
     background-size: 100% 100%;
     transform: translateZ(-25px) rotateY(180deg);
@@ -103,11 +101,329 @@ body{
 .caja .frente{
     width: 100%;
     height: 100%;
-    background: url(Imga/fotos/14.jpg);
+    background: url(Imga/fotos/34.jpeg);
     background-position: center;
     background-size: 100% 100%;
     transform: translateZ(25px);
     
 }
 
+.caja2{
+    width: 265px;
+    height: 365px;
+    transform-style: preserve-3d;
+    transition: 2s;
+    transform: perspective(500px) rotate(0deg);
+    cursor: pointer;
+    background: white;
+}
 
+.caja2:hover{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.caja2::before{
+    content: '';
+    position: absolute;
+    transform: rotateY(90deg) translateX(-25px);
+    transform-origin: left;
+    width: 50px;
+    height: 100%;
+    background: url(Imga/fotos/2.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.caja2 .atras2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/w1.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(-25px) rotateY(180deg);
+
+}
+
+.caja2 .frente2{
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/35.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(25px);
+    
+}
+
+.caja3{
+    width: 265px;
+    height: 365px;
+    transform-style: preserve-3d;
+    transition: 2s;
+    transform: perspective(500px) rotate(0deg);
+    cursor: pointer;
+    background: white;
+}
+
+.caja3:hover{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.caja3::before{
+    content: '';
+    position: absolute;
+    transform: rotateY(90deg) translateX(-25px);
+    transform-origin: left;
+    width: 50px;
+    height: 100%;
+    background: url(Imga/fotos/2.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.caja3 .atras3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/w1.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(-25px) rotateY(180deg);
+
+}
+
+.caja3 .frente3{
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/36.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(25px);
+    
+}
+
+.caja4{
+    width: 265px;
+    height: 365px;
+    transform-style: preserve-3d;
+    transition: 2s;
+    transform: perspective(500px) rotate(0deg);
+    cursor: pointer;
+    background: white;
+}
+
+.caja4:hover{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.caja4::before{
+    content: '';
+    position: absolute;
+    transform: rotateY(90deg) translateX(-25px);
+    transform-origin: left;
+    width: 50px;
+    height: 100%;
+    background: url(Imga/fotos/2.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.caja4 .atras4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/w1.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(-25px) rotateY(180deg);
+
+}
+
+.caja4 .frente4{
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/37.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(25px);
+    
+}
+
+.caja5{
+    width: 265px;
+    height: 365px;
+    transform-style: preserve-3d;
+    transition: 2s;
+    transform: perspective(500px) rotate(0deg);
+    cursor: pointer;
+    background: white;
+}
+
+.caja5:hover{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.caja5::before{
+    content: '';
+    position: absolute;
+    transform: rotateY(90deg) translateX(-25px);
+    transform-origin: left;
+    width: 50px;
+    height: 100%;
+    background: url(Imga/fotos/2.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.caja5 .atras5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/w1.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(-25px) rotateY(180deg);
+
+}
+
+.caja5 .frente5{
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/38.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(25px);
+    
+}
+
+.contenidos2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #01a9db;
+
+}
+
+.caja6{
+    width: 265px;
+    height: 365px;
+    transform-style: preserve-3d;
+    transition: 2s;
+    transform: perspective(500px) rotate(0deg);
+    cursor: pointer;
+    background: white;
+}
+
+.caja6:hover{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.caja6::before{
+    content: '';
+    position: absolute;
+    transform: rotateY(90deg) translateX(-25px);
+    transform-origin: left;
+    width: 50px;
+    height: 100%;
+    background: url(Imga/fotos/2.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.caja6 .atras6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/w1.jpeg );
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(-25px) rotateY(180deg);
+
+}
+
+.caja6 .frente6{
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/39.jpeg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(25px);
+    
+}
+
+.contenidos3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #01a9db;
+
+}
+
+.caja7{
+    width: 265px;
+    height: 365px;
+    transform-style: preserve-3d;
+    transition: 2s;
+    transform: perspective(500px) rotate(0deg);
+    cursor: pointer;
+    background: white;
+}
+
+.caja7:hover{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.caja7::before{
+    content: '';
+    position: absolute;
+    transform: rotateY(90deg) translateX(-25px);
+    transform-origin: left;
+    width: 50px;
+    height: 100%;
+    background: url(Imga/fotos/2.png);
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+.caja7 .atras7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/nove.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(-25px) rotateY(180deg);
+
+}
+
+.caja7 .frente7{
+    width: 100%;
+    height: 100%;
+    background: url(Imga/fotos/catia\ cacique\ rebelde.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    transform: translateZ(25px);
+    
+}

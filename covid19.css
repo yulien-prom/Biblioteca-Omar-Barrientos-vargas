@@ -1,0 +1,65 @@
+
+
+body{
+    background-color: whitesmoke;
+}
+
+.racfa{
+    width: 96%;
+    height: auto; overflow: hidden;
+    padding: 5px;
+    background: #fdfdfd;
+    border-left-style:solid ;
+border-left-width: 7px;
+border-left-color:#048981;
+border-radius: 10px;
+box-shadow: 0px 0px 15px #ccc;
+margin-bottom: 25px;
+}
+
+.enlace-racfa{
+    text-decoration: none;
+
+}
+
+.Tata{
+color: #6e6e6e;
+font-size: 22px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+ a .Tata:hover{
+    text-decoration: underline;
+}
+
+ .img-post{
+    width: 150px;
+    height: 100px;
+    float: left;
+    margin-top: 7px 7px 7px 0px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ .OB{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: #048981;
+}
+
+ .LETRAS{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: black;
+    padding: 5px;
+}
+
+.seguir{
+    background: #048981;
+    color: #fff;
+    border: 0px;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius:5px ;
+}
